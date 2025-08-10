@@ -1,0 +1,8 @@
+com/sccon/manager/application/core/usecase/UpdatePersonUseCaseTest.class
+com/sccon/manager/ManagerApplicationTests.class
+com/sccon/manager/application/core/usecase/CalculatePersonUseCaseTest$CalculateSalaryTests.class
+com/sccon/manager/application/core/usecase/CalculatePersonUseCaseTest.class
+com/sccon/manager/application/core/usecase/DeletePersonUseCaseTest.class
+com/sccon/manager/application/core/usecase/FindPersonUseCaseTest.class
+com/sccon/manager/application/core/usecase/CalculatePersonUseCaseTest$CalculateAgeTests.class
+com/sccon/manager/application/core/usecase/InsertPersonUseCaseTest.class
