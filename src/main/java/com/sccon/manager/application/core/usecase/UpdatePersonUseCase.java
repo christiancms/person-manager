@@ -5,12 +5,9 @@ import com.sccon.manager.application.core.ports.in.FindPersonInputPort;
 import com.sccon.manager.application.core.ports.in.UpdatePersonInputPort;
 import com.sccon.manager.application.core.ports.out.UpdatePersonOutputPort;
 
-/**
- * UpdatePersonUseCase - business rules to update person - services
- */
 public class UpdatePersonUseCase implements UpdatePersonInputPort {
 
-    private final FindPersonInputPort findPersonInputPort;
+    private final FindPersonInputPort findPersonInputPort; // TODO revisar
     private final UpdatePersonOutputPort updatePersonOutputPort;
 
     public UpdatePersonUseCase(FindPersonInputPort findPersonInputPort, UpdatePersonOutputPort updatePersonOutputPort) {

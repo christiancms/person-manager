@@ -17,7 +17,6 @@ public class InMemoryPersonRepository implements PersonRepository {
 
     @PostConstruct
     public void init() {
-        // Inicializando 3 pessoas com ID como chave
         personMap.put(1L, new Person(1L, "Huguinho", LocalDate.of(2005, 5, 15), LocalDate.of(2020, 1, 10)));
         personMap.put(2L, new Person(2L, "Zézinho", LocalDate.of(1995, 3, 22), LocalDate.of(2018, 6, 5)));
         personMap.put(3L, new Person(3L, "Luizinho", LocalDate.of(2000, 5, 20), LocalDate.of(2022, 2, 20)));

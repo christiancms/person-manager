@@ -5,9 +5,6 @@ import com.sccon.manager.application.core.ports.out.UpdatePersonOutputPort;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-/**
- * UpdatePersonAdapter - implements output port to save data repository/inMemory
- */
 @Component
 public class UpdatePersonAdapter implements UpdatePersonOutputPort {
 

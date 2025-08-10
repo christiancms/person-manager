@@ -8,10 +8,6 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 import java.util.Optional;
 
-/**
- * FindPersonAdapter - implements output port to find by id data repository/inMemory
- * @return data found in database/inMemory to core/domain of PersonAPI
- */
 @Component
 public class FindPersonAdapter implements FindPersonOutputPort {
 

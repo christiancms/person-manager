@@ -7,9 +7,6 @@ import com.sccon.manager.application.core.ports.out.FindPersonOutputPort;
 import java.util.List;
 import java.util.Optional;
 
-/**
- * FindPersonUseCase - business rules to find person by id - services
- */
 public class FindPersonUseCase implements FindPersonInputPort {
 
     private final FindPersonOutputPort findPersonOutputPort;

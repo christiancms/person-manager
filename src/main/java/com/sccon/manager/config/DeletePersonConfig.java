@@ -9,9 +9,7 @@ import org.springframework.context.annotation.Configuration;
 public class DeletePersonConfig {
 
     @Bean
-    public DeletePersonUseCase deletePersonUseCase(
-            DeletePersonAdapter deletePersonAdapter
-    ){
+    public DeletePersonUseCase deletePersonUseCase(DeletePersonAdapter deletePersonAdapter){
         return new DeletePersonUseCase(deletePersonAdapter);
     }
 }

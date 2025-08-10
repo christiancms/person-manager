@@ -9,9 +9,7 @@ import org.springframework.context.annotation.Configuration;
 public class InsertPersonConfig {
 
     @Bean
-    public InsertPersonUseCase insertPersonUseCase(
-            InsertPersonAdapter insertPersonAdapter
-    ) {
+    public InsertPersonUseCase insertPersonUseCase(InsertPersonAdapter insertPersonAdapter) {
         return new InsertPersonUseCase(insertPersonAdapter);
     }
 }

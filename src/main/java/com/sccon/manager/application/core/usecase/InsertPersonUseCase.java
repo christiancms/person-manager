@@ -4,9 +4,6 @@ import com.sccon.manager.application.core.domain.Person;
 import com.sccon.manager.application.core.ports.in.InsertPersonInputPort;
 import com.sccon.manager.application.core.ports.out.InsertPersonOutputPort;
 
-/**
- * InsertPersonUseCase - business rules to save person - services
- */
 public class InsertPersonUseCase implements InsertPersonInputPort {
 
     private final InsertPersonOutputPort insertPersonOutputPort;

@@ -40,3 +40,4 @@ class DeletePersonUseCaseTest {
         verify(deletePersonOutputPort, times(1)).delete(personId);
     }
 }
+
